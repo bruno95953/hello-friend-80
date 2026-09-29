@@ -166,19 +166,24 @@ function Home() {
                 {nr} - {nome}
               </h2>
               <div style={{ display: "grid", gap: 10, marginTop: 24 }}>
-                <button
-                  type="button"
+                <a
+                  href="/curso/nr-05"
                   style={{
                     height: 44,
                     border: "1px solid #d0d5dd",
                     borderRadius: 8,
                     background: "#ffffff",
+                    color: "#172033",
                     fontWeight: 700,
                     cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textDecoration: "none",
                   }}
                 >
                   Saiba mais
-                </button>
+                </a>
                 <button
                   type="button"
                   style={{
