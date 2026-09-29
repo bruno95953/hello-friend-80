@@ -220,24 +220,15 @@ function Home() {
           <div>
             <div
               style={{
-                width: 150,
-                height: 42,
-                display: "flex",
-                alignItems: "center",
                 marginBottom: 16,
+                color: "#ffffff",
+                fontSize: 28,
+                fontWeight: 800,
+                letterSpacing: 1,
+                lineHeight: 1,
               }}
             >
-              <img
-                src="/logo-ibrast.svg"
-                alt="IBRAST"
-                style={{
-                  width: 150,
-                  height: 42,
-                  objectFit: "contain",
-                  filter: "brightness(0) invert(1)",
-                  mixBlendMode: "screen",
-                }}
-              />
+              IBRAST
             </div>
             <p
               style={{
