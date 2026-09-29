@@ -54,7 +54,75 @@ function Home() {
         </div>
       </header>
 
-      <section style={{ maxWidth: 1100, margin: "0 auto", padding: "55px 24px 35px" }}>
+      <section
+        style={{
+          maxWidth: 1100,
+          margin: "20px auto 0",
+          padding: "22px 24px",
+        }}
+      >
+        <div
+          style={{
+            background: "#ffffff",
+            border: "1px solid #e5e7eb",
+            borderRadius: 14,
+            padding: "22px 24px",
+          }}
+        >
+          <div
+            style={{
+              textAlign: "center",
+              fontSize: 20,
+              fontWeight: 800,
+              marginBottom: 20,
+            }}
+          >
+            COMPRE COM SEGURANÇA E RECEBA RAPIDAMENTE
+          </div>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: 18,
+            }}
+          >
+            <div style={{ textAlign: "center", padding: "4px 10px" }}>
+              <div style={{ fontSize: 27, marginBottom: 8 }}>🔒</div>
+              <div style={{ fontWeight: 700, marginBottom: 5 }}>Pagamento seguro</div>
+              <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
+                Sua compra é processada com segurança pela Kiwify.
+              </div>
+            </div>
+
+            <div style={{ textAlign: "center", padding: "4px 10px" }}>
+              <div style={{ fontSize: 27, marginBottom: 8 }}>📧</div>
+              <div style={{ fontWeight: 700, marginBottom: 5 }}>Receba no seu e-mail</div>
+              <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
+                Após a confirmação do pagamento, você recebe no seu e-mail as informações para acessar o curso.
+              </div>
+            </div>
+
+            <div style={{ textAlign: "center", padding: "4px 10px" }}>
+              <div style={{ fontSize: 27, marginBottom: 8 }}>💻</div>
+              <div style={{ fontWeight: 700, marginBottom: 5 }}>100% online</div>
+              <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
+                Estude onde estiver, pelo celular ou computador.
+              </div>
+            </div>
+
+            <div style={{ textAlign: "center", padding: "4px 10px" }}>
+              <div style={{ fontSize: 27, marginBottom: 8 }}>🎓</div>
+              <div style={{ fontWeight: 700, marginBottom: 5 }}>Certificado</div>
+              <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
+                Conclua o curso e tenha acesso ao seu certificado.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ maxWidth: 1100, margin: "0 auto", padding: "30px 24px 35px" }}>
         <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: 2, color: "#1769e0" }}>
           CURSOS ONLINE
         </div>
