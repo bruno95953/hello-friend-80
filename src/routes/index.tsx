@@ -201,15 +201,104 @@ function Home() {
 
       <footer
         style={{
-          borderTop: "1px solid #e5e7eb",
-          background: "#ffffff",
-          padding: "25px 24px",
-          textAlign: "center",
-          color: "#667085",
-          fontSize: 14,
+          marginTop: 10,
+          background: "#111827",
+          color: "#ffffff",
+          borderTop: "1px solid #1f2937",
         }}
       >
-        © {new Date().getFullYear()} IBRAST
+        <div
+          style={{
+            maxWidth: 1100,
+            margin: "0 auto",
+            padding: "48px 24px 30px",
+            display: "grid",
+            gridTemplateColumns: "minmax(260px, 1.5fr) repeat(2, minmax(170px, 1fr))",
+            gap: 40,
+          }}
+        >
+          <div>
+            <img
+              src="/logo-ibrast.svg"
+              alt="IBRAST"
+              style={{
+                width: 150,
+                height: 42,
+                objectFit: "contain",
+                filter: "brightness(0) invert(1)",
+                marginBottom: 16,
+              }}
+            />
+            <p
+              style={{
+                margin: 0,
+                maxWidth: 360,
+                color: "#cbd5e1",
+                fontSize: 14,
+                lineHeight: 1.7,
+              }}
+            >
+              Capacitação online em Segurança do Trabalho e Normas
+              Regulamentadoras, com acesso simples e estudo onde você estiver.
+            </p>
+          </div>
+
+          <div>
+            <div style={{ fontWeight: 800, marginBottom: 16, fontSize: 15 }}>
+              Cursos
+            </div>
+            <div style={{ display: "grid", gap: 9, color: "#cbd5e1", fontSize: 14 }}>
+              <span>NR 05 — CIPA</span>
+              <span>NR 06 — EPI</span>
+              <span>NR 11 — Materiais</span>
+              <span>NR 12 — Máquinas</span>
+              <span>NR 18 — Construção</span>
+              <span>NR 33 — Espaços Confinados</span>
+              <span>NR 35 — Trabalho em Altura</span>
+            </div>
+          </div>
+
+          <div>
+            <div style={{ fontWeight: 800, marginBottom: 16, fontSize: 15 }}>
+              Acesso
+            </div>
+            <div style={{ display: "grid", gap: 12 }}>
+              <a
+                href="https://dashboard.kiwify.com/courses"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "#cbd5e1", textDecoration: "none", fontSize: 14 }}
+              >
+                Área do Aluno
+              </a>
+              <span style={{ color: "#94a3b8", fontSize: 14 }}>
+                Acesso online aos seus cursos
+              </span>
+              <span style={{ color: "#94a3b8", fontSize: 14 }}>
+                Certificado ao concluir
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{
+            borderTop: "1px solid #1f2937",
+            maxWidth: 1100,
+            margin: "0 auto",
+            padding: "18px 24px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: 16,
+            flexWrap: "wrap",
+            color: "#94a3b8",
+            fontSize: 12,
+          }}
+        >
+          <span>© {new Date().getFullYear()} IBRAST. Todos os direitos reservados.</span>
+          <span>Pagamento e acesso processados pela Kiwify.</span>
+        </div>
       </footer>
     </main>
   );
