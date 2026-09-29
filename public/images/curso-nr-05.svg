@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
-<rect width="800" height="420" fill="#f8fafc"/>
-<g transform="translate(400 210) rotate(45)">
-  <rect x="-130" y="-130" width="260" height="260" rx="8" fill="#f5c400"/>
-  <rect x="-116" y="-116" width="232" height="232" rx="4" fill="none" stroke="#d4a900" stroke-width="5"/>
-</g>
-<text x="400" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" fill="#111827">NR 05</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420"><rect width="800" height="420" fill="#eef4fb"/><rect width="800" height="420" fill="url(#g)"/><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b2d4d"/><stop offset="1" stop-color="#1769e0"/></linearGradient></defs><circle cx="610" cy="210" r="125" fill="#fff" opacity=".1"/><path d="M610 95l82 32v70c0 58-35 94-82 113-47-19-82-55-82-113v-70z" fill="#fff"/><path d="M570 203l27 27 56-61" fill="none" stroke="#1769e0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><circle cx="180" cy="170" r="42" fill="#f3c7a6"/><circle cx="310" cy="170" r="42" fill="#d99a72"/><path d="M120 300c5-65 115-65 120 0" fill="#fff"/><path d="M250 300c5-65 115-65 120 0" fill="#fff"/><path d="M130 145c12-42 88-45 100 0" fill="#17324d"/><path d="M260 145c12-42 88-45 100 0" fill="#17324d"/><rect x="48" y="38" width="145" height="58" rx="10" fill="#f5c400"/><text x="120" y="79" text-anchor="middle" font-family="Arial" font-size="34" font-weight="900" fill="#111827">NR 05</text><text x="48" y="370" font-family="Arial" font-size="25" font-weight="700" fill="#fff">CIPA • PREVENÇÃO E ASSÉDIO</text></svg>
