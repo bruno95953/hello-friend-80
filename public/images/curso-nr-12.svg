@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+<rect width="800" height="420" fill="#f8fafc"/>
+<g transform="translate(400 210) rotate(45)">
+  <rect x="-130" y="-130" width="260" height="260" rx="8" fill="#f5c400"/>
+  <rect x="-116" y="-116" width="232" height="232" rx="4" fill="none" stroke="#d4a900" stroke-width="5"/>
+</g>
+<text x="400" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" fill="#111827">NR 12</text>
+</svg>
