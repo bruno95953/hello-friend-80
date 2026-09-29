@@ -46,10 +46,11 @@ function Home() {
       }}
     >
       <header style={{ background: "#ffffff", borderBottom: "1px solid #e5e7eb" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", padding: "22px 24px" }}>
-          <div style={{ fontSize: 28, fontWeight: 800, letterSpacing: 3, color: "#1769e0" }}>
-            IBRAST
-          </div>
+        <div style={{ maxWidth: 1100, margin: "0 auto", padding: "18px 24px", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 20 }}>
+          <img src="/logo-ibrast.svg" alt="IBRAST" style={{ width: 170, height: 44, objectFit: "contain" }} />
+          <button type="button" style={{ height: 42, padding: "0 20px", border: "1px solid #1769e0", borderRadius: 8, background: "#ffffff", color: "#1769e0", fontWeight: 700, cursor: "pointer" }}>
+            Área do Aluno
+          </button>
         </div>
       </header>
 
