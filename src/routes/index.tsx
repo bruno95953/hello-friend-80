@@ -10,6 +10,27 @@ const cursos = [
 ];
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "IBRAST | Cursos de Segurança do Trabalho" },
+      {
+        name: "description",
+        content:
+          "Cursos online de Normas Regulamentadoras (NRs) — capacitação em Segurança do Trabalho de forma simples e objetiva.",
+      },
+      {
+        property: "og:title",
+        content: "IBRAST | Cursos de Segurança do Trabalho",
+      },
+      {
+        property: "og:description",
+        content:
+          "Cursos online de Normas Regulamentadoras (NRs) — capacitação em Segurança do Trabalho de forma simples e objetiva.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: Home,
 });
 
