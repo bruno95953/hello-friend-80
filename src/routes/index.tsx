@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 const cursos = [
-  ["NR 05", "CIPA — Comissão Interna de Prevenção de Acidentes e Assédio"],
-  ["NR 06", "Equipamentos de Proteção Individual — EPI"],
-  ["NR 11", "Transporte, Movimentação, Armazenagem e Manuseio de Materiais"],
-  ["NR 12", "Segurança no Trabalho em Máquinas e Equipamentos"],
-  ["NR 18", "Segurança e Saúde no Trabalho na Indústria da Construção"],
-  ["NR 33", "Segurança e Saúde nos Trabalhos em Espaços Confinados"],
-  ["NR 35", "Trabalho em Altura"],
+  ["NR 05", "CIPA — Comissão Interna de Prevenção de Acidentes e Assédio", "https://i.postimg.cc/5N0N6626/NR-05-modelo.png"],
+  ["NR 06", "Equipamentos de Proteção Individual — EPI", "https://i.postimg.cc/m2D2ttgc/NR-06.png"],
+  ["NR 11", "Transporte, Movimentação, Armazenagem e Manuseio de Materiais", "https://i.postimg.cc/PrxrPP5p/NR-11.png"],
+  ["NR 12", "Segurança no Trabalho em Máquinas e Equipamentos", "https://i.postimg.cc/Wb3bhh1q/NR-12.png"],
+  ["NR 18", "Segurança e Saúde no Trabalho na Indústria da Construção", "https://i.postimg.cc/7Y6YffZT/NR-18.png"],
+  ["NR 33", "Segurança e Saúde nos Trabalhos em Espaços Confinados", "https://i.postimg.cc/gkJknn2h/NR-33.png"],
+  ["NR 35", "Trabalho em Altura", "https://i.postimg.cc/3JRJddxp/NR-35.png"],
 ];
 
 export const Route = createFileRoute("/")({
@@ -76,7 +76,7 @@ function Home() {
           gap: 20,
         }}
       >
-        {cursos.map(([nr, nome]) => (
+        {cursos.map(([nr, nome, imagem]) => (
           <article
             key={nr}
             style={{
@@ -88,7 +88,7 @@ function Home() {
           >
             <div style={{ height: 190, background: "#f8fafc" }}>
               <img
-                src={`/images/curso-nr-${nr.replace("NR ", "")}.svg`}
+                src={imagem}
                 alt={`Capa do curso ${nr}`}
                 style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }}
               />
