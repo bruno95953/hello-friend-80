@@ -218,17 +218,27 @@ function Home() {
           }}
         >
           <div>
-            <img
-              src="/logo-ibrast.svg"
-              alt="IBRAST"
+            <div
               style={{
                 width: 150,
                 height: 42,
-                objectFit: "contain",
-                filter: "brightness(0) invert(1)",
+                display: "flex",
+                alignItems: "center",
                 marginBottom: 16,
               }}
-            />
+            >
+              <img
+                src="/logo-ibrast.svg"
+                alt="IBRAST"
+                style={{
+                  width: 150,
+                  height: 42,
+                  objectFit: "contain",
+                  filter: "brightness(0) invert(1)",
+                  mixBlendMode: "screen",
+                }}
+              />
+            </div>
             <p
               style={{
                 margin: 0,
