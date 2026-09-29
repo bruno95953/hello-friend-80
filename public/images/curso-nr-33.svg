@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
-<rect width="800" height="420" fill="#f8fafc"/>
-<g transform="translate(400 210) rotate(45)">
-  <rect x="-130" y="-130" width="260" height="260" rx="8" fill="#f5c400"/>
-  <rect x="-116" y="-116" width="232" height="232" rx="4" fill="none" stroke="#d4a900" stroke-width="5"/>
-</g>
-<text x="400" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" fill="#111827">NR 33</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420"><rect width="800" height="420" fill="#10283f"/><ellipse cx="430" cy="310" rx="210" ry="45" fill="#081622"/><rect x="270" y="120" width="320" height="190" rx="30" fill="#536878"/><ellipse cx="430" cy="120" rx="160" ry="48" fill="#8fa0ad"/><ellipse cx="430" cy="120" rx="112" ry="29" fill="#0b2d4d"/><path d="M430 150v105" stroke="#f5c400" stroke-width="12"/><circle cx="430" cy="245" r="24" fill="#f5c400"/><path d="M430 268v38M430 280l-35 30M430 280l35 30" stroke="#fff" stroke-width="12"/><path d="M205 205v110M190 225h30" stroke="#1769e0" stroke-width="10"/><rect x="48" y="38" width="145" height="58" rx="10" fill="#f5c400"/><text x="120" y="79" text-anchor="middle" font-family="Arial" font-size="34" font-weight="900" fill="#111827">NR 33</text><text x="48" y="385" font-family="Arial" font-size="25" font-weight="700" fill="#fff">ESPAÇOS CONFINADOS</text></svg>
