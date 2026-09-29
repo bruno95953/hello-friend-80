@@ -239,8 +239,8 @@ function Home() {
                 lineHeight: 1.7,
               }}
             >
-              Capacitação online em Segurança do Trabalho e Normas
-              Regulamentadoras, com acesso simples e estudo onde você estiver.
+              Consiga seu certificado sem complicação. Faça sua capacitação online,
+              de onde estiver, em qualquer dia e horário, e após a conclusão receba seu certificado imediatamente.
             </p>
           </div>
 
