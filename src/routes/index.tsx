@@ -5,7 +5,9 @@ const cursos = [
   ["NR 06", "Equipamentos de Proteção Individual — EPI"],
   ["NR 11", "Transporte, Movimentação, Armazenagem e Manuseio de Materiais"],
   ["NR 12", "Segurança no Trabalho em Máquinas e Equipamentos"],
-  ["NR 17", "Ergonomia"],
+  ["NR 18", "Segurança e Saúde no Trabalho na Indústria da Construção"],
+  ["NR 33", "Segurança e Saúde nos Trabalhos em Espaços Confinados"],
+  ["NR 35", "Trabalho em Altura"],
 ];
 
 export const Route = createFileRoute("/")({
