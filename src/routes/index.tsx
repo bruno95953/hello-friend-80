@@ -86,16 +86,12 @@ function Home() {
               overflow: "hidden",
             }}
           >
-            <div
-              style={{
-                background: "#1769e0",
-                color: "#ffffff",
-                padding: "28px 24px",
-                fontSize: 30,
-                fontWeight: 800,
-              }}
-            >
-              {nr}
+            <div style={{ height: 190, background: "#f8fafc" }}>
+              <img
+                src={`/images/curso-nr-${nr.replace("NR ", "")}.svg`}
+                alt={`Capa do curso ${nr}`}
+                style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }}
+              />
             </div>
             <div style={{ padding: 24 }}>
               <h2 style={{ margin: 0, minHeight: 76, fontSize: 18, lineHeight: 1.45 }}>
