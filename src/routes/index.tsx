@@ -167,7 +167,7 @@ function Home() {
               </h2>
               <div style={{ display: "grid", gap: 10, marginTop: 24 }}>
                 <a
-                  href="/curso/nr-05"
+                  href={`/curso/${nr.toLowerCase().replace(" ", "-")}`}
                   style={{
                     height: 44,
                     border: "1px solid #d0d5dd",
