@@ -266,17 +266,40 @@ function NR05() {
         </div>
       </section>
 
-      <footer
-        style={{
-          background: "#111827",
-          borderTop: "1px solid #1f2937",
-          color: "#94a3b8",
-          textAlign: "center",
-          padding: "20px 24px",
-          fontSize: 12,
-        }}
-      >
-        © {new Date().getFullYear()} IBRAST. Todos os direitos reservados.
+
+      <footer style={{ background: "#111827", color: "#ffffff", borderTop: "1px solid #1f2937" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", padding: "42px 24px 26px", display: "grid", gridTemplateColumns: "minmax(260px, 1.5fr) repeat(2, minmax(170px, 1fr))", gap: 40 }}>
+          <div>
+            <div style={{ marginBottom: 14, color: "#ffffff", fontSize: 28, fontWeight: 800, letterSpacing: 1 }}>IBRAST</div>
+            <p style={{ margin: 0, maxWidth: 360, color: "#cbd5e1", fontSize: 14, lineHeight: 1.7 }}>
+              Consiga seu certificado sem complicação. Faça sua capacitação online, de onde estiver, em qualquer dia e horário, e após a conclusão receba seu certificado imediatamente.
+            </p>
+          </div>
+          <div>
+            <div style={{ fontWeight: 800, marginBottom: 14 }}>Cursos</div>
+            <div style={{ display: "grid", gap: 8, color: "#cbd5e1", fontSize: 14 }}>
+              <a href="/curso/nr-05" style={{color:"#cbd5e1",textDecoration:"none"}}>NR 05 — CIPA</a>
+              <a href="/curso/nr-06" style={{color:"#cbd5e1",textDecoration:"none"}}>NR 06 — EPI</a>
+              <a href="/curso/nr-11" style={{color:"#cbd5e1",textDecoration:"none"}}>NR 11 — Materiais</a>
+              <a href="/curso/nr-12" style={{color:"#cbd5e1",textDecoration:"none"}}>NR 12 — Máquinas</a>
+              <a href="/curso/nr-18" style={{color:"#cbd5e1",textDecoration:"none"}}>NR 18 — Construção</a>
+              <a href="/curso/nr-33" style={{color:"#cbd5e1",textDecoration:"none"}}>NR 33 — Espaços Confinados</a>
+              <a href="/curso/nr-35" style={{color:"#cbd5e1",textDecoration:"none"}}>NR 35 — Trabalho em Altura</a>
+            </div>
+          </div>
+          <div>
+            <div style={{ fontWeight: 800, marginBottom: 14 }}>Acesso</div>
+            <div style={{ display: "grid", gap: 10 }}>
+              <a href="https://dashboard.kiwify.com/courses" target="_blank" rel="noreferrer" style={{ color:"#cbd5e1", textDecoration:"none", fontSize:14 }}>Área do Aluno</a>
+              <span style={{color:"#94a3b8",fontSize:14}}>Acesso online aos seus cursos</span>
+              <span style={{color:"#94a3b8",fontSize:14}}>Certificado ao concluir</span>
+            </div>
+          </div>
+        </div>
+        <div style={{ borderTop:"1px solid #1f2937", maxWidth:1100, margin:"0 auto", padding:"16px 24px", display:"flex", justifyContent:"space-between", flexWrap:"wrap", gap:12, color:"#94a3b8", fontSize:12 }}>
+          <span>© {new Date().getFullYear()} IBRAST. Todos os direitos reservados.</span>
+          <span>Pagamento e acesso processados pela Kiwify.</span>
+        </div>
       </footer>
     </main>
   );
