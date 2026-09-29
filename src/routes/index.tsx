@@ -115,7 +115,7 @@ function Home() {
               <div style={{ fontSize: 27, marginBottom: 8 }}>🎓</div>
               <div style={{ fontWeight: 700, marginBottom: 5 }}>Certificado</div>
               <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
-                Conclua o curso e tenha acesso ao seu certificado.
+                Conclua o curso e tenha acesso ao seu certificado, válido em todo o território brasileiro.
               </div>
             </div>
           </div>
@@ -281,7 +281,7 @@ function Home() {
                 Acesso online aos seus cursos
               </span>
               <span style={{ color: "#94a3b8", fontSize: 14 }}>
-                Certificado ao concluir
+                Certificado válido em todo o território brasileiro ao concluir
               </span>
             </div>
           </div>
