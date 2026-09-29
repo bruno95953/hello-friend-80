@@ -95,7 +95,7 @@ function Home() {
             </div>
             <div style={{ padding: 24 }}>
               <h2 style={{ margin: 0, minHeight: 76, fontSize: 18, lineHeight: 1.45 }}>
-                {nome}
+                {nr} - {nome}
               </h2>
               <div style={{ display: "grid", gap: 10, marginTop: 24 }}>
                 <button
