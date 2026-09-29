@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
-<rect width="800" height="420" fill="#f8fafc"/>
-<g transform="translate(400 210) rotate(45)">
-  <rect x="-130" y="-130" width="260" height="260" rx="8" fill="#f5c400"/>
-  <rect x="-116" y="-116" width="232" height="232" rx="4" fill="none" stroke="#d4a900" stroke-width="5"/>
-</g>
-<text x="400" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" fill="#111827">NR 18</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420"><rect width="800" height="420" fill="#eaf1f6"/><rect y="300" width="800" height="120" fill="#c9d4dc"/><path d="M110 300V115h180v185M290 300V80h170v220M460 300V145h140v155" fill="#fff" stroke="#0b2d4d" stroke-width="8"/><path d="M110 160h180M290 130h170M460 190h140M200 115v185M375 80v220M530 145v155" stroke="#1769e0" stroke-width="7"/><circle cx="650" cy="165" r="35" fill="#f3c7a6"/><path d="M615 150q35-55 70 0" fill="#f5c400"/><path d="M610 205h80l25 95H585z" fill="#1769e0"/><path d="M625 230l-55 70M675 230l55 70" stroke="#0b2d4d" stroke-width="18"/><rect x="48" y="38" width="145" height="58" rx="10" fill="#f5c400"/><text x="120" y="79" text-anchor="middle" font-family="Arial" font-size="34" font-weight="900" fill="#111827">NR 18</text><text x="48" y="385" font-family="Arial" font-size="25" font-weight="700" fill="#0b2d4d">SEGURANÇA NA INDÚSTRIA DA CONSTRUÇÃO</text></svg>
