@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 const cursos = [
-  ["NR 01", "Disposições Gerais e Gerenciamento de Riscos Ocupacionais"],
   ["NR 05", "CIPA — Comissão Interna de Prevenção de Acidentes e Assédio"],
   ["NR 06", "Equipamentos de Proteção Individual — EPI"],
   ["NR 11", "Transporte, Movimentação, Armazenagem e Manuseio de Materiais"],
