@@ -196,6 +196,8 @@ function Home() {
                 </a>
                 <a
                   href={links[nr] ?? "#"}
+                  target={links[nr] ? "_blank" : undefined}
+                  rel="noreferrer"
                   style={{
                     height: 44,
                     border: 0,
