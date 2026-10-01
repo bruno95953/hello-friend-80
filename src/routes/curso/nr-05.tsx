@@ -246,7 +246,7 @@ function NR05() {
             Ao concluir o treinamento, receba seu certificado.
           </p>
           <a
-            href="#"
+            href="https://pay.kiwify.com.br/VxNl1UR"
             style={{
               height: 50,
               padding: "0 32px",

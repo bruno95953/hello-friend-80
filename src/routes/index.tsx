@@ -12,6 +12,12 @@ const cursos: [string, string, string][] = [
 
 const links: Record<string, string> = {
   "NR 05": "https://pay.kiwify.com.br/VxNl1UR",
+  "NR 06": "https://pay.kiwify.com.br/2KvHXy6",
+  "NR 11": "https://pay.kiwify.com.br/zNpAdIp",
+  "NR 12": "https://pay.kiwify.com.br/3opi4yO",
+  "NR 18": "https://pay.kiwify.com.br/8xi5vEm",
+  "NR 33": "https://pay.kiwify.com.br/eYRPtlf",
+  "NR 35": "https://pay.kiwify.com.br/985FE72",
 };
 
 export const Route = createFileRoute("/")({
