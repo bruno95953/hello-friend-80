@@ -131,7 +131,7 @@ function Home() {
               <div style={{ fontSize: 27, marginBottom: 8 }}>🎓</div>
               <div style={{ fontWeight: 700, marginBottom: 5 }}>Certificado</div>
               <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
-                Conclua o curso e tenha acesso ao seu certificado de conclusão.
+                Conclua o curso e receba seu certificado de conclusão, emitido conforme os requisitos aplicáveis das Normas Regulamentadoras (NRs) do Ministério do Trabalho, com validade em todo o território brasileiro.
               </div>
             </div>
           </div>
