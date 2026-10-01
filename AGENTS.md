@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep shared responsive overrides for the existing inline-styled pages in `src/styles.css`; this prevents course and home layouts from overflowing narrow viewports without duplicating rules across routes.

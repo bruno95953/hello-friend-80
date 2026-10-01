@@ -142,3 +142,68 @@
     color: var(--color-foreground);
   }
 }
+
+/* Existing pages use inline desktop dimensions; these rules keep them fluid on smaller screens. */
+@media (max-width: 900px) {
+  main > section:first-of-type[style*="grid"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 24px !important;
+  }
+
+  main > footer > div:first-child {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 32px !important;
+  }
+
+  main > footer > div:first-child > div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 600px) {
+  main > header > div {
+    gap: 10px !important;
+    padding: 14px 16px !important;
+  }
+
+  main > header img {
+    width: 125px !important;
+    height: auto !important;
+  }
+
+  main > header a[href*="dashboard.kiwify.com"] {
+    padding: 0 10px !important;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  main > section:first-of-type[style*="grid"] {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+  }
+
+  main > section:first-of-type[style*="grid"] h1 {
+    font-size: clamp(28px, 8vw, 36px) !important;
+    overflow-wrap: break-word;
+  }
+
+  main > section[style*="grid"]:not(:first-of-type),
+  main > section div[style*="gridTemplateColumns"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  main > footer > div:first-child {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 32px !important;
+    padding: 36px 24px 30px !important;
+  }
+
+  main > footer > div:first-child > div:first-child {
+    grid-column: auto;
+  }
+
+  main > footer > div:last-child {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}
