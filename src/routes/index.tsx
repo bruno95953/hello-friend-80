@@ -10,6 +10,10 @@ const cursos = [
   ["NR 35", "Trabalho em Altura", "https://i.postimg.cc/3JRJddxp/NR-35.png"],
 ];
 
+const links: Record<string, string> = {
+  "NR 05": "https://pay.kiwify.com.br/VxNl1UR",
+};
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -184,8 +188,8 @@ function Home() {
                 >
                   Saiba mais
                 </a>
-                <button
-                  type="button"
+                <a
+                  href={links[nr] ?? "#"}
                   style={{
                     height: 44,
                     border: 0,
@@ -194,10 +198,14 @@ function Home() {
                     color: "#ffffff",
                     fontWeight: 700,
                     cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textDecoration: "none",
                   }}
                 >
                   Comprar agora
-                </button>
+                </a>
               </div>
             </div>
           </article>
