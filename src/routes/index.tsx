@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-const cursos = [
+const cursos: [string, string, string][] = [
   ["NR 05", "CIPA — Comissão Interna de Prevenção de Acidentes e Assédio", "https://i.postimg.cc/5N0N6626/NR-05-modelo.png"],
   ["NR 06", "Equipamentos de Proteção Individual — EPI", "https://i.postimg.cc/m2D2ttgc/NR-06.png"],
   ["NR 11", "Transporte, Movimentação, Armazenagem e Manuseio de Materiais", "https://i.postimg.cc/PrxrPP5p/NR-11.png"],
@@ -9,6 +9,10 @@ const cursos = [
   ["NR 33", "Segurança e Saúde nos Trabalhos em Espaços Confinados", "https://i.postimg.cc/gkJknn2h/NR-33.png"],
   ["NR 35", "Trabalho em Altura", "https://i.postimg.cc/3JRJddxp/NR-35.png"],
 ];
+
+const links: Record<string, string> = {
+  "NR 05": "https://pay.kiwify.com.br/VxNl1UR",
+};
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -184,8 +188,8 @@ function Home() {
                 >
                   Saiba mais
                 </a>
-                <button
-                  type="button"
+                <a
+                  href={links[nr] ?? "#"}
                   style={{
                     height: 44,
                     border: 0,
@@ -194,10 +198,14 @@ function Home() {
                     color: "#ffffff",
                     fontWeight: 700,
                     cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textDecoration: "none",
                   }}
                 >
                   Comprar agora
-                </button>
+                </a>
               </div>
             </div>
           </article>

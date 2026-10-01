@@ -10,33 +10,128 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CursoNr05RouteImport } from './routes/curso/nr-05'
+import { Route as CursoNr06RouteImport } from './routes/curso/nr-06'
+import { Route as CursoNr11RouteImport } from './routes/curso/nr-11'
+import { Route as CursoNr12RouteImport } from './routes/curso/nr-12'
+import { Route as CursoNr18RouteImport } from './routes/curso/nr-18'
+import { Route as CursoNr33RouteImport } from './routes/curso/nr-33'
+import { Route as CursoNr35RouteImport } from './routes/curso/nr-35'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CursoNr05Route = CursoNr05RouteImport.update({
+  id: '/curso/nr-05',
+  path: '/curso/nr-05',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CursoNr06Route = CursoNr06RouteImport.update({
+  id: '/curso/nr-06',
+  path: '/curso/nr-06',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CursoNr11Route = CursoNr11RouteImport.update({
+  id: '/curso/nr-11',
+  path: '/curso/nr-11',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CursoNr12Route = CursoNr12RouteImport.update({
+  id: '/curso/nr-12',
+  path: '/curso/nr-12',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CursoNr18Route = CursoNr18RouteImport.update({
+  id: '/curso/nr-18',
+  path: '/curso/nr-18',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CursoNr33Route = CursoNr33RouteImport.update({
+  id: '/curso/nr-33',
+  path: '/curso/nr-33',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CursoNr35Route = CursoNr35RouteImport.update({
+  id: '/curso/nr-35',
+  path: '/curso/nr-35',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/curso/nr-05': typeof CursoNr05Route
+  '/curso/nr-06': typeof CursoNr06Route
+  '/curso/nr-11': typeof CursoNr11Route
+  '/curso/nr-12': typeof CursoNr12Route
+  '/curso/nr-18': typeof CursoNr18Route
+  '/curso/nr-33': typeof CursoNr33Route
+  '/curso/nr-35': typeof CursoNr35Route
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/curso/nr-05': typeof CursoNr05Route
+  '/curso/nr-06': typeof CursoNr06Route
+  '/curso/nr-11': typeof CursoNr11Route
+  '/curso/nr-12': typeof CursoNr12Route
+  '/curso/nr-18': typeof CursoNr18Route
+  '/curso/nr-33': typeof CursoNr33Route
+  '/curso/nr-35': typeof CursoNr35Route
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/curso/nr-05': typeof CursoNr05Route
+  '/curso/nr-06': typeof CursoNr06Route
+  '/curso/nr-11': typeof CursoNr11Route
+  '/curso/nr-12': typeof CursoNr12Route
+  '/curso/nr-18': typeof CursoNr18Route
+  '/curso/nr-33': typeof CursoNr33Route
+  '/curso/nr-35': typeof CursoNr35Route
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/curso/nr-05'
+    | '/curso/nr-06'
+    | '/curso/nr-11'
+    | '/curso/nr-12'
+    | '/curso/nr-18'
+    | '/curso/nr-33'
+    | '/curso/nr-35'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/curso/nr-05'
+    | '/curso/nr-06'
+    | '/curso/nr-11'
+    | '/curso/nr-12'
+    | '/curso/nr-18'
+    | '/curso/nr-33'
+    | '/curso/nr-35'
+  id:
+    | '__root__'
+    | '/'
+    | '/curso/nr-05'
+    | '/curso/nr-06'
+    | '/curso/nr-11'
+    | '/curso/nr-12'
+    | '/curso/nr-18'
+    | '/curso/nr-33'
+    | '/curso/nr-35'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CursoNr05Route: typeof CursoNr05Route
+  CursoNr06Route: typeof CursoNr06Route
+  CursoNr11Route: typeof CursoNr11Route
+  CursoNr12Route: typeof CursoNr12Route
+  CursoNr18Route: typeof CursoNr18Route
+  CursoNr33Route: typeof CursoNr33Route
+  CursoNr35Route: typeof CursoNr35Route
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +143,67 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/curso/nr-05': {
+      id: '/curso/nr-05'
+      path: '/curso/nr-05'
+      fullPath: '/curso/nr-05'
+      preLoaderRoute: typeof CursoNr05RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/curso/nr-06': {
+      id: '/curso/nr-06'
+      path: '/curso/nr-06'
+      fullPath: '/curso/nr-06'
+      preLoaderRoute: typeof CursoNr06RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/curso/nr-11': {
+      id: '/curso/nr-11'
+      path: '/curso/nr-11'
+      fullPath: '/curso/nr-11'
+      preLoaderRoute: typeof CursoNr11RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/curso/nr-12': {
+      id: '/curso/nr-12'
+      path: '/curso/nr-12'
+      fullPath: '/curso/nr-12'
+      preLoaderRoute: typeof CursoNr12RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/curso/nr-18': {
+      id: '/curso/nr-18'
+      path: '/curso/nr-18'
+      fullPath: '/curso/nr-18'
+      preLoaderRoute: typeof CursoNr18RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/curso/nr-33': {
+      id: '/curso/nr-33'
+      path: '/curso/nr-33'
+      fullPath: '/curso/nr-33'
+      preLoaderRoute: typeof CursoNr33RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/curso/nr-35': {
+      id: '/curso/nr-35'
+      path: '/curso/nr-35'
+      fullPath: '/curso/nr-35'
+      preLoaderRoute: typeof CursoNr35RouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CursoNr05Route: CursoNr05Route,
+  CursoNr06Route: CursoNr06Route,
+  CursoNr11Route: CursoNr11Route,
+  CursoNr12Route: CursoNr12Route,
+  CursoNr18Route: CursoNr18Route,
+  CursoNr33Route: CursoNr33Route,
+  CursoNr35Route: CursoNr35Route,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
