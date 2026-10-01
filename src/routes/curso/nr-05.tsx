@@ -26,7 +26,7 @@ function NR05() {
             gap: 20,
           }}
         >
-          <a href="https://pay.kiwify.com.br/VxNl1UR" style={{ textDecoration: "none" }}>
+          <a href="https://pay.kiwify.com.br/VxNl1UR" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
             <img
               src="/logo-ibrast.svg"
               alt="IBRAST"
@@ -247,6 +247,8 @@ function NR05() {
           </p>
           <a
             href="https://pay.kiwify.com.br/VxNl1UR"
+            target="_blank"
+            rel="noreferrer"
             style={{
               height: 50,
               padding: "0 32px",
