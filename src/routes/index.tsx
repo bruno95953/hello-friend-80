@@ -108,18 +108,22 @@ function Home() {
             </div>
 
             <div style={{ textAlign: "center", padding: "4px 10px" }}>
-              <div style={{ fontSize: 27, marginBottom: 8 }}>📧</div>
-              <div style={{ fontWeight: 700, marginBottom: 5 }}>Receba no seu e-mail</div>
+              <div style={{ fontSize: 27, marginBottom: 8 }}>📚</div>
+              <div style={{ fontWeight: 700, marginBottom: 5 }}>
+                Conforme as Normas Regulamentadoras
+              </div>
               <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
-                Após a confirmação do pagamento, você recebe no seu e-mail as informações para acessar o curso.
+                Cursos desenvolvidos com conteúdo baseado nas Normas Regulamentadoras (NRs) de Segurança e Saúde no Trabalho.
               </div>
             </div>
 
             <div style={{ textAlign: "center", padding: "4px 10px" }}>
               <div style={{ fontSize: 27, marginBottom: 8 }}>💻</div>
-              <div style={{ fontWeight: 700, marginBottom: 5 }}>100% online</div>
+              <div style={{ fontWeight: 700, marginBottom: 5 }}>
+                Acesso imediato e 100% online
+              </div>
               <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
-                Estude onde estiver, pelo celular ou computador.
+                Após a confirmação do pagamento, receba imediatamente no seu e-mail os dados para acessar o curso. Estude onde e quando quiser, pelo celular ou computador.
               </div>
             </div>
 
@@ -127,7 +131,7 @@ function Home() {
               <div style={{ fontSize: 27, marginBottom: 8 }}>🎓</div>
               <div style={{ fontWeight: 700, marginBottom: 5 }}>Certificado</div>
               <div style={{ color: "#667085", fontSize: 14, lineHeight: 1.45 }}>
-                Conclua o curso e tenha acesso ao seu certificado, válido em todo o território brasileiro.
+                Conclua o curso e tenha acesso ao seu certificado de conclusão.
               </div>
             </div>
           </div>
