@@ -321,9 +321,6 @@ function Home() {
                 }}
               >
                 Área do Aluno
-                <span aria-hidden="true" style={{ fontSize: 16 }}>
-                  →
-                </span>
               </a>
               <span style={{ color: "#94a3b8", fontSize: 14 }}>
                 Acesso online aos seus cursos
