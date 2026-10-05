@@ -322,12 +322,27 @@ function Home() {
               >
                 Área do Aluno
               </a>
-              <span style={{ color: "#94a3b8", fontSize: 14 }}>
-                Acesso online aos seus cursos
-              </span>
-              <span style={{ color: "#94a3b8", fontSize: 14 }}>
-                Certificado válido em todo o território brasileiro ao concluir
-              </span>
+              <a
+                href="https://certificados-nr.ai.studio/consultar"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  height: 44,
+                  padding: "0 20px",
+                  borderRadius: 8,
+                  background: "#1769e0",
+                  color: "#ffffff",
+                  fontWeight: 800,
+                  cursor: "pointer",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  textDecoration: "none",
+                  width: "fit-content",
+                }}
+              >
+                Consultar Certificado
+              </a>
             </div>
           </div>
         </div>
