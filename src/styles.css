@@ -143,6 +143,25 @@
   }
 }
 
+/* Highlight the "Área do Aluno" footer link on every page; ::after adds the arrow once for all pages. */
+main > footer a[href*="dashboard.kiwify.com"] {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  border-bottom: 2px solid #1769e0;
+  padding-bottom: 4px;
+  text-decoration: none !important;
+}
+
+main > footer a[href*="dashboard.kiwify.com"]::after {
+  content: "→";
+  font-size: 16px;
+}
+
 /* Existing pages use inline desktop dimensions; these rules keep them fluid on smaller screens. */
 @media (max-width: 900px) {
   main > section:first-of-type[style*="grid-template-columns"] {
