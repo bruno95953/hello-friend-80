@@ -326,20 +326,7 @@ function Home() {
                 href="https://certificados-nr.ai.studio/consultar"
                 target="_blank"
                 rel="noreferrer"
-                style={{
-                  height: 44,
-                  padding: "0 20px",
-                  borderRadius: 8,
-                  background: "#1769e0",
-                  color: "#ffffff",
-                  fontWeight: 800,
-                  cursor: "pointer",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textDecoration: "none",
-                  width: "fit-content",
-                }}
+                style={{ textDecoration: "none" }}
               >
                 Consultar Certificado
               </a>

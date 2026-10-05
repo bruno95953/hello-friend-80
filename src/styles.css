@@ -143,8 +143,9 @@
   }
 }
 
-/* Highlight the "Área do Aluno" footer link on every page; ::after adds the arrow once for all pages. */
-main > footer a[href*="dashboard.kiwify.com"] {
+/* Highlight the "Área do Aluno" and "Consultar Certificado" footer links on every page; ::after adds the arrow once for all pages. */
+main > footer a[href*="dashboard.kiwify.com"],
+main > footer a[href*="certificados-nr.ai.studio"] {
   color: #ffffff !important;
   font-size: 18px !important;
   font-weight: 800 !important;
@@ -157,7 +158,8 @@ main > footer a[href*="dashboard.kiwify.com"] {
   text-decoration: none !important;
 }
 
-main > footer a[href*="dashboard.kiwify.com"]::after {
+main > footer a[href*="dashboard.kiwify.com"]::after,
+main > footer a[href*="certificados-nr.ai.studio"]::after {
   content: "→";
   font-size: 16px;
 }
