@@ -293,8 +293,7 @@ function NR05() {
             <div style={{ fontWeight: 800, marginBottom: 14 }}>Acesso</div>
             <div style={{ display: "grid", gap: 10 }}>
               <a href="https://dashboard.kiwify.com/courses" target="_blank" rel="noreferrer" style={{ color:"#cbd5e1", textDecoration:"none", fontSize:14 }}>Área do Aluno</a>
-              <span style={{color:"#94a3b8",fontSize:14}}>Acesso online aos seus cursos</span>
-              <span style={{color:"#94a3b8",fontSize:14}}>Certificado ao concluir</span>
+              <a href="https://certificados-nr.ai.studio/consultar" target="_blank" rel="noreferrer" style={{height:44,padding:"0 20px",borderRadius:8,background:"#1769e0",color:"#fff",fontWeight:800,display:"inline-flex",alignItems:"center",textDecoration:"none",width:"fit-content"}}>Consultar Certificado</a>
             </div>
           </div>
         </div>
