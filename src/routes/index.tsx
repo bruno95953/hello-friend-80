@@ -275,14 +275,26 @@ function Home() {
             <div style={{ fontWeight: 800, marginBottom: 16, fontSize: 15 }}>
               Cursos
             </div>
-            <div style={{ display: "grid", gap: 9, color: "#cbd5e1", fontSize: 14 }}>
-              <span>NR 05 — CIPA</span>
-              <span>NR 06 — EPI</span>
-              <span>NR 11 — Materiais</span>
-              <span>NR 12 — Máquinas</span>
-              <span>NR 18 — Construção</span>
-              <span>NR 33 — Espaços Confinados</span>
-              <span>NR 35 — Trabalho em Altura</span>
+            <div style={{ display: "grid", gap: 9, fontSize: 14 }}>
+              {(
+                [
+                  ["NR 05", "CIPA"],
+                  ["NR 06", "EPI"],
+                  ["NR 11", "Materiais"],
+                  ["NR 12", "Máquinas"],
+                  ["NR 18", "Construção"],
+                  ["NR 33", "Espaços Confinados"],
+                  ["NR 35", "Trabalho em Altura"],
+                ] as const
+              ).map(([nr, nome]) => (
+                <a
+                  key={nr}
+                  href={`/curso/${nr.toLowerCase().replace(" ", "-")}`}
+                  style={{ color: "#cbd5e1", textDecoration: "none" }}
+                >
+                  {nr} — {nome}
+                </a>
+              ))}
             </div>
           </div>
 
@@ -295,9 +307,23 @@ function Home() {
                 href="https://dashboard.kiwify.com/courses"
                 target="_blank"
                 rel="noreferrer"
-                style={{ color: "#cbd5e1", textDecoration: "none", fontSize: 14 }}
+                style={{
+                  color: "#ffffff",
+                  fontSize: 18,
+                  fontWeight: 800,
+                  textDecoration: "none",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 8,
+                  width: "fit-content",
+                  borderBottom: "2px solid #1769e0",
+                  paddingBottom: 4,
+                }}
               >
                 Área do Aluno
+                <span aria-hidden="true" style={{ fontSize: 16 }}>
+                  →
+                </span>
               </a>
               <span style={{ color: "#94a3b8", fontSize: 14 }}>
                 Acesso online aos seus cursos
