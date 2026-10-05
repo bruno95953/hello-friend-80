@@ -117,6 +117,10 @@ function NR05() {
           >
             QUERO FAZER O CURSO
           </a>
+
+          <div style={{ marginTop: 16, fontSize: 22, fontWeight: 800 }}>
+            R$ 79,90
+          </div>
         </div>
 
         <div
@@ -245,6 +249,9 @@ function NR05() {
             Comece sua capacitação online e estude de onde estiver, no seu ritmo.
             Ao concluir o treinamento, receba seu certificado.
           </p>
+          <div style={{ margin: "0 auto 20px", fontWeight: 800, fontSize: 34 }}>
+            R$ 79,90
+          </div>
           <a
             href="https://pay.kiwify.com.br/VxNl1UR"
             target="_blank"
