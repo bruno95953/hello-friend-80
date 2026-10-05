@@ -276,15 +276,17 @@ function Home() {
               Cursos
             </div>
             <div style={{ display: "grid", gap: 9, fontSize: 14 }}>
-              {[
-                ["NR 05", "CIPA"],
-                ["NR 06", "EPI"],
-                ["NR 11", "Materiais"],
-                ["NR 12", "Máquinas"],
-                ["NR 18", "Construção"],
-                ["NR 33", "Espaços Confinados"],
-                ["NR 35", "Trabalho em Altura"],
-              ].map(([nr, nome]) => (
+              {(
+                [
+                  ["NR 05", "CIPA"],
+                  ["NR 06", "EPI"],
+                  ["NR 11", "Materiais"],
+                  ["NR 12", "Máquinas"],
+                  ["NR 18", "Construção"],
+                  ["NR 33", "Espaços Confinados"],
+                  ["NR 35", "Trabalho em Altura"],
+                ] as const
+              ).map(([nr, nome]) => (
                 <a
                   key={nr}
                   href={`/curso/${nr.toLowerCase().replace(" ", "-")}`}
