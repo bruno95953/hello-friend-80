@@ -191,7 +191,23 @@ function Home() {
               <h2 style={{ margin: 0, minHeight: 76, fontSize: 18, lineHeight: 1.45 }}>
                 {nr} - {nome}
               </h2>
-              <div style={{ display: "grid", gap: 10, marginTop: 24 }}>
+              <div
+                style={{
+                  marginTop: 16,
+                  display: "flex",
+                  alignItems: "baseline",
+                  gap: 8,
+                  flexWrap: "wrap",
+                }}
+              >
+                <span style={{ color: "#667085", fontSize: 13, fontWeight: 700 }}>
+                  Por apenas
+                </span>
+                <span style={{ color: "#172033", fontSize: 26, fontWeight: 800, lineHeight: 1 }}>
+                  {precos[nr] ?? "R$ 79,90"}
+                </span>
+              </div>
+              <div style={{ display: "grid", gap: 10, marginTop: 18 }}>
                 <a
                   href={`/curso/${nr.toLowerCase().replace(" ", "-")}`}
                   style={{
