@@ -178,6 +178,8 @@ function Home() {
               border: "1px solid #e5e7eb",
               borderRadius: 14,
               overflow: "hidden",
+              display: "flex",
+              flexDirection: "column",
             }}
           >
             <div style={{ height: 190, background: "#f8fafc" }}>
