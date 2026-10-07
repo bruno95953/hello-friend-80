@@ -20,6 +20,16 @@ const links: Record<string, string> = {
   "NR 35": "https://pay.kiwify.com.br/985FE72",
 };
 
+const precos: Record<string, string> = {
+  "NR 05": "R$ 79,90",
+  "NR 06": "R$ 79,90",
+  "NR 11": "R$ 79,90",
+  "NR 12": "R$ 89,90",
+  "NR 18": "R$ 79,90",
+  "NR 33": "R$ 79,90",
+  "NR 35": "R$ 79,90",
+};
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
