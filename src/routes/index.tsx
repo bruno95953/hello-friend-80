@@ -20,6 +20,16 @@ const links: Record<string, string> = {
   "NR 35": "https://pay.kiwify.com.br/985FE72",
 };
 
+const precos: Record<string, string> = {
+  "NR 05": "R$ 79,90",
+  "NR 06": "R$ 79,90",
+  "NR 11": "R$ 79,90",
+  "NR 12": "R$ 89,90",
+  "NR 18": "R$ 79,90",
+  "NR 33": "R$ 79,90",
+  "NR 35": "R$ 79,90",
+};
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -168,6 +178,8 @@ function Home() {
               border: "1px solid #e5e7eb",
               borderRadius: 14,
               overflow: "hidden",
+              display: "flex",
+              flexDirection: "column",
             }}
           >
             <div style={{ height: 190, background: "#f8fafc" }}>
@@ -177,11 +189,27 @@ function Home() {
                 style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }}
               />
             </div>
-            <div style={{ padding: 24 }}>
+            <div style={{ padding: 24, display: "flex", flexDirection: "column", flex: 1 }}>
               <h2 style={{ margin: 0, minHeight: 76, fontSize: 18, lineHeight: 1.45 }}>
                 {nr} - {nome}
               </h2>
-              <div style={{ display: "grid", gap: 10, marginTop: 24 }}>
+              <div
+                style={{
+                  marginTop: 16,
+                  display: "flex",
+                  alignItems: "baseline",
+                  gap: 8,
+                  flexWrap: "wrap",
+                }}
+              >
+                <span style={{ color: "#667085", fontSize: 13, fontWeight: 700 }}>
+                  Por apenas
+                </span>
+                <span style={{ color: "#172033", fontSize: 26, fontWeight: 800, lineHeight: 1 }}>
+                  {precos[nr] ?? "R$ 79,90"}
+                </span>
+              </div>
+              <div style={{ display: "grid", gap: 10, marginTop: "auto", paddingTop: 18 }}>
                 <a
                   href={`/curso/${nr.toLowerCase().replace(" ", "-")}`}
                   style={{
