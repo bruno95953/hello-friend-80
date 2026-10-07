@@ -187,7 +187,7 @@ function Home() {
                 style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }}
               />
             </div>
-            <div style={{ padding: 24 }}>
+            <div style={{ padding: 24, display: "flex", flexDirection: "column", height: "100%" }}>
               <h2 style={{ margin: 0, minHeight: 76, fontSize: 18, lineHeight: 1.45 }}>
                 {nr} - {nome}
               </h2>
