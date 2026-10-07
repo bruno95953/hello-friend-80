@@ -209,7 +209,7 @@ function Home() {
                   {precos[nr] ?? "R$ 79,90"}
                 </span>
               </div>
-              <div style={{ display: "grid", gap: 10, marginTop: 18 }}>
+              <div style={{ display: "grid", gap: 10, marginTop: "auto", paddingTop: 18 }}>
                 <a
                   href={`/curso/${nr.toLowerCase().replace(" ", "-")}`}
                   style={{
