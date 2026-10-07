@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep shared responsive overrides for the existing inline-styled pages in `src/styles.css`; this prevents course and home layouts from overflowing narrow viewports without duplicating rules across routes.
+- Serve the favicon as a real ICO file in `public/` and declare it in the root head so every page uses the same browser icon.
