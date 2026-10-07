@@ -20,7 +20,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content: "Cursos online de Normas Regulamentadoras e Segurança do Trabalho.",
       },
     ],
-    links: [{ rel: "stylesheet", href: appCss }],
+    links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico?v=ibrast" },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
